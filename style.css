@@ -33,7 +33,10 @@
     flex-direction: column;
     text-align: justify;
 }
-.content p{
+.content p, .content a{
     margin-top: 20px;
     font-size: 20px;
+}
+.content a{
+    display: block;
 }
