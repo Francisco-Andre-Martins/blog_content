@@ -1,0 +1,39 @@
+*{
+    font-family: 'Roboto';
+    margin: 0;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+    flex-wrap: wrap;
+    padding:10px;
+}
+
+.header li{
+    display:flex;
+
+    list-style: none;
+    padding: 10px;
+
+}
+.content{
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+.content p{
+    margin-top: 20px;
+    font-size: 20px;
+}
